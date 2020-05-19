@@ -1,0 +1,73 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	color: #fff;
+}
+.navbar{
+	background-color:black;
+	padding: 1% 0;
+	font-size: 1.2em;
+	opacity: 90%;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.nav-item{
+	padding-left: 25px;
+	text-transform: uppercase;
+	letter-spacing: 2px
+}
+.navbar-brand{
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+.navbar-dafalut .navbar-nav li a{
+	color:#fff;
+}
+.navbar-dafalut .navbar-nav li a:hover .navbar-dafalut .navbar-nav li a.active{
+	color:#fff;
+}
+#home{
+	background:url(skybest.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+.landing-text{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.landing-text h1{
+	font-size: 500%;
+	font-weight: 700%;
+}
+.padding{
+	padding: 80px 0;
+}
+#fixed{
+	background: url(office.jpg) no-repeat center center fixed;
+	display: table;
+	height: 50%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+#fixed1{
+	background: url(sky1.jpg) no-repeat center center fixed;
+	display: table;
+	height: 30%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+footer{
+	width: 100%;
+	background-color: black;
+	padding: 5% 5% 10% 5%;
+	color: #fff;
+}
